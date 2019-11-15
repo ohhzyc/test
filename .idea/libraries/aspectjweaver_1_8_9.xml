@@ -1,0 +1,46 @@
+<component name="libraryTable">
+  <library name="aspectjweaver-1.8.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/aspectjweaver-1.8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/c3p0-0.9.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/commons-beanutils-1.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/commons-collections-3.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/commons-fileupload-1.3.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/commons-io-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/commons-lang-2.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/commons-logging-1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/ezmorph-1.0.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/gson-1.6.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/hamcrest-core-1.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/jackson-annotations-2.8.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/jackson-core-2.8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/jackson-databind-2.8.9.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/javax.servlet-api-3.1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/json-lib-2.2.1-jdk15.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/json-simple-1.1.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/jsp-api-2.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/jsqlparser-1.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/jstl-1.2.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/junit-4.12.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/log4j.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/mybatis-3.4.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/mybatis-generator-core-1.3.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/mybatis-spring-1.3.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/mysql-connector-java-5.1.29.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/pagehelper-5.0.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-aop-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-aspects-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-beans-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-context-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-core-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-expression-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-jdbc-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-test-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-tx-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-web-4.3.9.RELEASE.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../../../项目素材/项目素材/ssm框架基础配置文件/lib/spring-webmvc-4.3.9.RELEASE.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
