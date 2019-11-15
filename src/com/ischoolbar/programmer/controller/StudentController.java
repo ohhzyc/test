@@ -92,7 +92,7 @@ public class StudentController {
 	
 	/**
 	 * 编辑学生信息
-	 * @param clazz
+	 * @param student
 	 * @return
 	 */
 	@RequestMapping(value="/edit",method=RequestMethod.POST)
@@ -160,7 +160,7 @@ public class StudentController {
 			ret.put("msg", "该姓名已存在！");
 			return ret;
 		}
-		student.setSn(StringUtil.generateSn("S", ""));
+		student.setSn(StringUtil.generateSn("2017", ""));
 		if(studentService.add(student) <= 0){
 			ret.put("type", "error");
 			ret.put("msg", "学生添加失败！");
