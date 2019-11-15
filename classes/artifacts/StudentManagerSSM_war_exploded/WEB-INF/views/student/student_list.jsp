@@ -315,7 +315,7 @@
 	    		<tr >
 	    			<td>预览头像:</td>
 	    			<td>
-	    				<img id="photo-preview" alt="照片" style="max-width: 100px; max-height: 100px;" title="照片" src="/StudentManagerSSM/photo/student.jpg" />
+	    				<img id="photo-preview" alt="照片" style="max-width: 100px; max-height: 100px;" title="照片" src="/test/photo/1.jpeg" />
 	    			</td>
 	    		</tr>
 	    		<tr >
@@ -329,7 +329,7 @@
 	    </form>
    		<form id="addForm" method="post">
 	    	<table id="addTable2" cellpadding="8">
-	    		<input id="add_photo" type="hidden" name="photo" value="/StudentManagerSSM/photo/student.jpg"  />
+	    		<input id="add_photo" type="hidden" name="photo" value="/StudentManagerSSM/photo/1.jpg"  />
 	    		<tr >
 	    			<td>学生姓名:</td>
 	    			<td>

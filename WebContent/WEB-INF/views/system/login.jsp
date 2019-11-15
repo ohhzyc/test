@@ -28,7 +28,7 @@
 	$(function(){
 		//点击图片切换验证码
 		$("#vcodeImg").click(function(){
-			this.src="get_cpacha?vl=4&w=160&h=40&t="+new Date().getTime();
+			this.src="get_cpacha?"+new Date().getTime();
 		});
 		
 		//登录
@@ -107,7 +107,7 @@
     </form>
   </div>
 </div>
-<div class="footer">Copyright &nbsp; artisan @ 【猿来入此】 </div>
+<div class="footer">Copyright &nbsp; artisan @ zyc </div>
 
 
 </body>

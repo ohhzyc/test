@@ -107,11 +107,10 @@ public class SystemController {
 		request.getSession().setAttribute("loginCpacha", null);
 
 		if(type == 1){
-			//����Ա
 			User user = userService.findByUserName(username);
 			if(user == null){
 				ret.put("type", "error");
-				ret.put("msg", "查无此人");
+				ret.put("msg", "该用户不存在！");
 				return ret;
 			}
 			if(!password.equals(user.getPassword())){
@@ -126,7 +125,7 @@ public class SystemController {
 			Student student = studentService.findByUserName(username);
 			if(student == null){
 				ret.put("type", "error");
-				ret.put("msg", "查无此人！");
+				ret.put("msg", "该用户不存在！");
 				return ret;
 			}
 			if(!password.equals(student.getPassword())){
