@@ -25,11 +25,6 @@ import com.ischoolbar.programmer.service.StudentService;
 import com.ischoolbar.programmer.service.UserService;
 import com.ischoolbar.programmer.util.CpachaUtil;
 
-/**
- * ϵͳ��ҳ������
- * @author llq
- *
- */
 
 @RequestMapping("/system")
 @Controller
@@ -48,7 +43,7 @@ public class SystemController {
 	}
 
 	/**
-	 * ��½ҳ��
+	 * 页面跳转
 	 * @param model
 	 * @return
 	 */
@@ -59,7 +54,7 @@ public class SystemController {
 	}
 
 	/**
-	 * ע����¼ 
+	 * 登出
 	 * @param request
 	 * @return
 	 */
@@ -70,7 +65,7 @@ public class SystemController {
 	}
 
 	/**
-	 * ��¼���ύ
+	 * 登陆
 	 * @return
 	 */
 	@RequestMapping(value = "/login",method=RequestMethod.POST)
@@ -127,7 +122,7 @@ public class SystemController {
 			request.getSession().setAttribute("user", user);
 		}
 		if(type == 2){
-			//ѧ��
+
 			Student student = studentService.findByUserName(username);
 			if(student == null){
 				ret.put("type", "error");
@@ -148,7 +143,7 @@ public class SystemController {
 	}
 
 	/**
-	 * ��ʾ ��֤��
+	 * 验证码生成
 	 * @param request
 	 * @param vl
 	 * @param w
