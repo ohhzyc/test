@@ -131,7 +131,7 @@ public class SystemController {
 			Student student = studentService.findByUserName(username);
 			if(student == null){
 				ret.put("type", "error");
-				ret.put("msg", "查无此人");
+				ret.put("msg", "查无此人！");
 				return ret;
 			}
 			if(!password.equals(student.getPassword())){
