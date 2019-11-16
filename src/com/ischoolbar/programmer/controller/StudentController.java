@@ -237,6 +237,8 @@ public class StudentController {
 			ret.put("msg", "文件格式不正确，请上传jpg,png,gif,jpeg格式的图片！");
 			return ret;
 		}
+		String testsavePath = request.getServletContext().getRealPath("/upload") ;
+		System.out.println(testsavePath);
 		String savePath = request.getServletContext().getRealPath("/") + "\\upload\\";
 		System.out.println(savePath);
 		File savePathFile = new File(savePath);
@@ -248,7 +250,7 @@ public class StudentController {
 		photo.transferTo(new File(savePath + filename ));
 		ret.put("type", "success");
 		ret.put("msg", "图片上传成功！");
-		ret.put("src", request.getServletContext().getContextPath() + "/upload/" + filename);
+		ret.put("src", request.getServletContext().getContextPath() + "upload/" + filename);
 		return ret;
 	}
 	
